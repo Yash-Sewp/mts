@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  color: #444;
+  color: #0b3641;
 }
 
 a {
@@ -68,7 +68,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 
 #topbar .contact-info a {
   line-height: 1;
-  color: #444;
+  color: #0b3641;
   transition: 0.3s;
 }
 
@@ -866,7 +866,7 @@ section {
 }
 
 .services .title a {
-  color: #444;
+  color: #0b3641;
   transition: 0.3s;
 }
 
@@ -911,7 +911,7 @@ section {
   padding: 10px 20px;
   font-size: 12px;
   line-height: 20px;
-  color: #444;
+  color: #0b3641;
   border-radius: 4px;
   text-transform: uppercase;
   background: #fff;
@@ -1199,7 +1199,7 @@ section {
 # Contact Us
 --------------------------------------------------------------*/
 .contact .info-box {
-  color: #444;
+  color: #0b3641;
   text-align: center;
   box-shadow: 0 0 30px rgba(214, 215, 216, 0.6);
   padding: 20px 0 30px 0;
