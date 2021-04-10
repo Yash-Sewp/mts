@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link rel="shortcut icon" href="assets/img/favicon.ico" type="image/x-icon">  
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -36,42 +36,28 @@
 <body>
 
   <div class="header">
-    <!-- ======= Top Bar ======= -->
-    <section id="topbar" class="d-none d-lg-block">
-      <div class="container clearfix">
-        <div class="contact-info float-left">
-          <i class="icofont-envelope"></i><a href="mailto:info@mtslogistics.co.za">info@mtslogistics.co.za</a>
-          <i class="icofont-phone"></i> <span>+27 (0)79 103 9754</span>
-        </div>
-        <div class="social-links float-right">
-          <a href="#" class="facebook"><i class="icofont-facebook"></i></a>
-          <a href="#" class="instagram"><i class="icofont-instagram"></i></a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ======= Header ======= -->
     <header id="header">
       <div class="container">
-
         <div class="logo float-left">
           <a href="index.html" class="navbar-logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
         </div>
-
         <nav class="nav-menu float-right d-none d-lg-block">
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li class="active"><a href="about.html">About Us</a></li>
-            <li><a href="services.html">Services & Fleet</a></li>
-            <li><a href="#">Portfolio</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
+          <div id="mySidenav" class="sidenav closed">
+            <a href="javascript:void(0)" class="closebtn">&times;</a>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li class="active"><a href="about.html">About Us</a></li>
+              <li><a href="services.html">Services & Fleet</a></li>
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+          </div>
+          <span class="menu-btn">&#9776;</span>
         </nav><!-- .nav-menu -->
-
       </div>
     </header>
-    <!-- End Header -->
   </div>
+
 
     <!-- ======= Hero Section ======= -->
     <section id="hero-banner">
@@ -156,8 +142,8 @@
             <p>
               Sandton <br>
               Gauteng, South Africa<br><br>
-              <strong>Phone:</strong> +27 (0)79 103 9754<br>
-              <strong>Email:</strong> info@mtslogistics.co.za<br>
+              <strong><i class="fa fa-phone"></i></strong> +27 (0)79 103 9754<br>
+              <strong><i class="fa fa-envelope"></i></strong> info@mtslogistics.co.za<br>
             </p>
           </div>
 
