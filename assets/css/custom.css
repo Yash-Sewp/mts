@@ -165,11 +165,11 @@ body {
 } */
 
 #footer .footer-top h4 {
-	color: #111;
+	color: rgb(255, 255, 255);
 }
 
 #footer .footer-top .footer-info, #footer .footer-top .footer-info p, #footer .footer-top .footer-links ul a, #footer .footer-top i {
-	color: #111;
+	color: rgb(255, 255, 255);
 }
 
 .hero-container .carousel-item {
@@ -177,11 +177,11 @@ body {
 }
 
 #footer .copyright {
-	color: #111 !important;
+	color: rgb(255, 255, 255) !important;
 }
 
 #footer .copyright span {
-	color: #111 !important;
+	color:rgb(255, 255, 255) !important;
 }
 
 #topbar .contact-info a,
@@ -284,7 +284,7 @@ span {
 }
 
 #header.header-scrolled {
-	background-color: #354649;
+	background-color: #051618;
 }
 
 @media screen and (min-width: 992px) {
@@ -294,11 +294,11 @@ span {
 }
 
 #footer .footer-top {
-	background-color: #fff;
+	background-color: rgb(168, 168, 168);
 }
 
 footer#footer {
-	background-color: #a3c6c4;
+	background-color: #051618;
 }
 
 /* New Implementations  */
@@ -306,7 +306,7 @@ footer#footer {
 /* Hex: 354649 / 6C7A89 / A3C6C4 / E0E7E9 */
 
 .darker-bg {
-	background-color: #354649;
+	background-color: #051618;
 }
 
 .dark-bg {
@@ -323,6 +323,7 @@ footer#footer {
 
 .transparent-bg {
 	border: 2px solid #ffbb00;
+
 }
 
 
